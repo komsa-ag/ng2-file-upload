@@ -60,11 +60,7 @@ export class FileType {
     'application/x-bzip2'
   ];
 
-<<<<<<< HEAD:src/file-upload/file-type.class.ts
   public static getMimeClass(file: FileLikeObject): string {
-=======
-  public static getMimeClass(file: any): string {
->>>>>>> master:components/file-upload/file-type.class.ts
     let mimeClass = 'application';
     if (this.mime_psd.indexOf(file.type) !== -1) {
       mimeClass = 'image';
@@ -93,11 +89,7 @@ export class FileType {
   }
 
   public static fileTypeDetection(inputFilename: string): string {
-<<<<<<< HEAD:src/file-upload/file-type.class.ts
     let types: { [ key: string ]: string } = {
-=======
-    let types: { [key: string]: string } = {
->>>>>>> master:components/file-upload/file-type.class.ts
       'jpg': 'image',
       'jpeg': 'image',
       'tif': 'image',
