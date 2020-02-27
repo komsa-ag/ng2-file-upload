@@ -139,7 +139,7 @@ export class FileType {
       'ppsx': 'ppt',
       'odp': 'ppt',
       'msg': 'msg',
-      'eml': 'eml'
+      'eml': 'msg'
     };
 
     let chunks = inputFilename.split('.');
